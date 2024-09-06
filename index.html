@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-lg">
+        <div class="container mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <img src="wonderful.jpeg" alt="Logo" class="w-12 h-12">
+                    <span class="text-xl font-semibold ml-2 text-cyan-600">SLTour</span>
+                </div>
+
+                <!-- Menu -->
+                <ul class="hidden md:flex space-x-8">
+                    <li><a href="#" class="text-gray-700 hover:text-cyan-600">Beranda</a></li>
+                    <li><a href="#" class="text-gray-700 hover:text-cyan-600">Paket Liburan</a></li>
+                    <li><a href="#" class="text-gray-700 hover:text-cyan-600">Tiket</a></li>
+                    <li><a href="#" class="text-gray-700 hover:text-cyan-600">Tentang Kami</a></li>
+                    <li><a href="#" class="text-gray-700 hover:text-cyan-600">Kontak</a></li>
+                </ul>
+
+                <!-- Call to Action -->
+                <div class="hidden md:flex items-center space-x-4">
+                    <a href="#" class="text-cyan-600 hover:underline">Login</a>
+                    <a href="#" class="bg-cyan-600 text-white px-4 py-2 rounded-lg hover:bg-cyan-500">Sign Up</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden flex items-center">
+                    <button class="text-gray-700 focus:outline-none focus:text-cyan-600">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative bg-cover bg-center h-screen" style="background-image: url('koper.webp');">
+        <div class="container mx-auto h-full flex justify-center items-center">
+            <div class="text-center text-white">
+                <h1 class="text-5xl font-bold mb-6">Jelajahi Dunia Bersama Kami</h1>
+                <p class="text-xl mb-8">Temukan paket wisata menakjubkan untuk petualangan anda berikutnya</p>
+                <a href="#" class="bg-cyan-600 text-white px-8 py-4 rounded-lg hover:bg-cyan-500">Pesan Sekarang</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-12 bg-gray-100">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold text-gray-700 mb-8">Top Destination</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="bg-white shadow-lg rounded-lg p-6">
+                    <img src="banda.jpeg" alt="Service 1" class="w-full h-40 object-cover rounded-lg">
+                    <h3 class="text-lg font-semibold text-gray-700 mt-4">Banda Neira</h3>
+                    <p class="text-gray-500 mt-2">Temukan wisata dan pengalaman perjalanan menakjubkan berama kami.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-white shadow-lg rounded-lg p-6">
+                    <img src="labuan.jpeg" alt="Service 2" class="w-full h-40 object-cover rounded-lg">
+                    <h3 class="text-lg font-semibold text-gray-700 mt-4">Labuan Bajo</h3>
+                    <p class="text-gray-500 mt-2">Temukan wisata dan pengalaman perjalanan menakjubkan berama kami.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-white shadow-lg rounded-lg p-6">
+                    <img src="bali.jpeg" alt="Service 3" class="w-full h-40 object-cover rounded-lg">
+                    <h3 class="text-lg font-semibold text-gray-700 mt-4">Bali</h3>
+                    <p class="text-gray-500 mt-2">Temukan wisata dan pengalaman perjalanan menakjubkan berama kami.</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="bg-white shadow-lg rounded-lg p-6">
+                    <img src="swiss.jpeg" alt="Service 2" class="w-full h-40 object-cover rounded-lg">
+                    <h3 class="text-lg font-semibold text-gray-700 mt-4">Swiss</h3>
+                    <p class="text-gray-500 mt-2">Temukan wisata dan pengalaman perjalanan menakjubkan berama kami.</p>
+                </div>
+                <!-- Card 5 -->
+                <div class="bg-white shadow-lg rounded-lg p-6">
+                    <img src="arab.jpeg" alt="Service 2" class="w-full h-40 object-cover rounded-lg">
+                    <h3 class="text-lg font-semibold text-gray-700 mt-4">Arab Saudi</h3>
+                    <p class="text-gray-500 mt-2">Temukan wisata dan pengalaman perjalanan menakjubkan berama kami.</p>
+                </div>
+                <!-- Card 6 -->
+                <div class="bg-white shadow-lg rounded-lg p-6">
+                    <img src="turki.jpeg" alt="Service 2" class="w-full h-40 object-cover rounded-lg">
+                    <h3 class="text-lg font-semibold text-gray-700 mt-4">Turki</h3>
+                    <p class="text-gray-500 mt-2">Temukan wisata dan pengalaman perjalanan menakjubkan berama kami.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+            
+            <!-- Quick Links -->
+            <div>
+                <h4 class="font-bold text-lg mb-4">Quick Links</h4>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:text-cyan-400">Beranda</a></li>
+                    <li><a href="#" class="hover:text-cyan-400">Paket Liburan</a></li>
+                    <li><a href="#" class="hover:text-cyan-400">Tentang Kami</a></li>
+                    <li><a href="#" class="hover:text-cyan-400">Kontak</a></li>
+                </ul>
+            </div>
+            <!-- Contact Info -->
+            <div>
+                <h4 class="font-bold text-lg mb-4">Contact Us</h4>
+                <p>Phone: +62 821-1659-4051</p>
+                <p>Email: info@SLTour.com</p>
+                <div class="flex space-x-4 mt-4">
+                </div>
+            </div>
+        </div>
+        <p class="text-center mt-8">&copy; 2024 SLTour. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
